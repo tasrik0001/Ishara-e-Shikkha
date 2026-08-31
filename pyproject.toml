@@ -1,0 +1,17 @@
+[project]
+name = "ishara-e-shikkha"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "tasrik0001", email = "tasrik0001@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+ishara-e-shikkha = "ishara_e_shikkha:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
